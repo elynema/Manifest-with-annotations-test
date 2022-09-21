@@ -1,0 +1,205 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://elynema.github.io/Manifest-with-annotations-test/manifests/annotatedManifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Assorted images",
+  "metadata" : [ {
+    "label" : "Editor",
+    "value" : "Emily Lynema"
+  }, {
+    "label" : "Published",
+    "value" : "September 20, 2022"
+  } ],
+  "description" : [ {
+    "@value" : "Photography and sketches mostly from NC State University Archives",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "University Archives, NC State University",
+  "sequences" : [ {
+    "@id" : "http://bfdaf1e5-238e-456c-937c-08696ba3161a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "individuals",
+    "canvases" : [ {
+      "@id" : "http://b907b901-36a0-48f0-8e5e-13d468d2233e",
+      "@type" : "sc:Canvas",
+      "label" : "Hunting Lodge sketch",
+      "height" : 2926,
+      "width" : 8262,
+      "metadata" : [ {
+        "label" : "Author",
+        "value" : "Leslie N. Boney"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://26b57e05-851d-4f2d-868e-79508fb9e303",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.lib.ncsu.edu/iiif/mc00096-001-ff0140-000-001_0001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : [ "http://iiif.io/api/image/2/context.json", {
+              "ronallo" : "http://ronallo.com/ns/",
+              "gravityBangs" : {
+                "@id" : "ronallo:gravityBangsFeature",
+                "@type" : "iiif:Feature"
+              }
+            } ],
+            "@id" : "https://iiif.lib.ncsu.edu/iiif/mc00096-001-ff0140-000-001_0001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png" ],
+              "maxWidth" : 8262,
+              "maxHeight" : 2926,
+              "qualities" : [ "color", "gray", "bitonal" ],
+              "supports" : [ "baseUriRedirect", "cors", "regionByPct", "regionByPx", "regionSquare", "mirroring", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "SizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "gravityBangs" ]
+            } ]
+          },
+          "height" : 2926,
+          "width" : 8262
+        },
+        "on" : "http://b907b901-36a0-48f0-8e5e-13d468d2233e"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://elynema.github.io/Manifest/annotations/0fc3de9e0da637b7c125e23db6a9656f.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e552c8e7-ac43-4413-809a-65e94ff4855b",
+      "@type" : "sc:Canvas",
+      "label" : "photograph, group of women",
+      "height" : 1752,
+      "width" : 2723,
+      "metadata" : [ {
+        "label" : "Created Date",
+        "value" : "circa 1900-1920"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f80ae41e-a4a1-4d1d-b850-9226e33215a3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.lib.ncsu.edu/iiif/ua023_007-007-bx0025-003-034/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : [ "http://iiif.io/api/image/2/context.json", {
+              "ronallo" : "http://ronallo.com/ns/",
+              "gravityBangs" : {
+                "@id" : "ronallo:gravityBangsFeature",
+                "@type" : "iiif:Feature"
+              }
+            } ],
+            "@id" : "https://iiif.lib.ncsu.edu/iiif/ua023_007-007-bx0025-003-034",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png" ],
+              "maxWidth" : 2723,
+              "maxHeight" : 1752,
+              "qualities" : [ "color", "gray", "bitonal" ],
+              "supports" : [ "baseUriRedirect", "cors", "regionByPct", "regionByPx", "regionSquare", "mirroring", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "SizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "gravityBangs" ]
+            } ]
+          },
+          "height" : 1752,
+          "width" : 2723
+        },
+        "on" : "http://e552c8e7-ac43-4413-809a-65e94ff4855b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://19f690a1-d60c-4bf9-a255-914ad742514c",
+      "@type" : "sc:Canvas",
+      "label" : "landscape architecture sketch",
+      "height" : 4560,
+      "width" : 5905,
+      "metadata" : [ {
+        "label" : "Author",
+        "value" : "R. L. Phillips"
+      }, {
+        "label" : "Published",
+        "value" : "1958-05-07"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2fd410f3-08ae-49fb-9a78-22b7de86f2e5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.lib.ncsu.edu/iiif/ua100_099-002-cb0002_052-16826-009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : [ "http://iiif.io/api/image/2/context.json", {
+              "ronallo" : "http://ronallo.com/ns/",
+              "gravityBangs" : {
+                "@id" : "ronallo:gravityBangsFeature",
+                "@type" : "iiif:Feature"
+              }
+            } ],
+            "@id" : "https://iiif.lib.ncsu.edu/iiif/ua100_099-002-cb0002_052-16826-009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png" ],
+              "maxWidth" : 5905,
+              "maxHeight" : 4560,
+              "qualities" : [ "color", "gray", "bitonal" ],
+              "supports" : [ "baseUriRedirect", "cors", "regionByPct", "regionByPx", "regionSquare", "mirroring", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "SizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "gravityBangs" ]
+            } ]
+          },
+          "height" : 4560,
+          "width" : 5905
+        },
+        "on" : "http://19f690a1-d60c-4bf9-a255-914ad742514c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://54c50c3a-fb80-4501-a619-1586387a50ba",
+      "@type" : "sc:Canvas",
+      "label" : "yosemite photograph",
+      "height" : 5998,
+      "width" : 3634,
+      "metadata" : [ {
+        "label" : "Author",
+        "value" : "Johannes Andersson"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://61830449-e93e-40e6-96df-f995bb82b9e6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/johannes-andersson-UCd78vfC8vU-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/johannes-andersson-UCd78vfC8vU-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 5998,
+          "width" : 3634
+        },
+        "on" : "http://54c50c3a-fb80-4501-a619-1586387a50ba"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://b907b901-36a0-48f0-8e5e-13d468d2233e" ]
+  } ]
+}
