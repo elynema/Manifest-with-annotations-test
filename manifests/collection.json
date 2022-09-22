@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://elynema.github.io/Manifest-with-annotations-test/manifests/annotatedManifest.json",
-    "label" : "Assorted images"
-  } ]
+  "items" : [ ]
 }
